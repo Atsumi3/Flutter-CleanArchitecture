@@ -1,0 +1,18 @@
+include: package:effective_dart/analysis_options.yaml
+
+# auto copied from templates/analysis_options.yaml.
+# if you need update analyze rule, please run 'make copy_analysis_options'.
+
+analyzer:
+  errors:
+    import_of_legacy_library_into_null_safe: false
+  exclude:
+    - "lib/generated_plugin_registrant.dart"
+    - "**.g.dart"
+    - "**.freezed.dart"
+
+linter:
+  rules:
+    public_member_api_docs: false
+    prefer_const_constructors: true
+    one_member_abstracts: false
